@@ -1,5 +1,7 @@
 import React from 'react';
+import css from './Statistics.module.css';
 export const Statistics = ({ good, neutral, bad, total, positiveFeedbacks }) => (
+   
     // console.log(Object.keys(options));
     
    
@@ -14,9 +16,9 @@ export const Statistics = ({ good, neutral, bad, total, positiveFeedbacks }) => 
         //     </ul>
 
  
-        <ul>
+        <ul className={css.ul}>
             <li>
-                <span>Good: {good}</span>
+                <span className={css.span}>Good: {good}</span>
             </li>
             <li>
                 <span>Neutral: {neutral}</span>

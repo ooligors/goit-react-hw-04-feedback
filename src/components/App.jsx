@@ -43,10 +43,12 @@ export class App extends React.Component {
         style={{
           height: '100vh',
           display: 'flex',
+          flexDirection: 'column',
           justifyContent: 'center',
           alignItems: 'center',
           fontSize: 40,
           color: '#010101',
+          backgroundColor: '#c3edf7',
         }}
       >
         <Section
