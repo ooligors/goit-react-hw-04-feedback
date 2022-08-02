@@ -1,5 +1,6 @@
 import React from 'react';
 import css from './Statistics.module.css';
+import PropTypes from 'prop-types';
 export const Statistics = ({ good, neutral, bad, total, positiveFeedbacks }) => (
    
     // console.log(Object.keys(options));
@@ -36,3 +37,11 @@ export const Statistics = ({ good, neutral, bad, total, positiveFeedbacks }) => 
             </li>
         </ul>) 
        
+
+       Statistics.propTypes = {
+    good: PropTypes.number.isRequired,
+    neutral: PropTypes.number.isRequired,
+    bad: PropTypes.number.isRequired,
+    total: PropTypes.number.isRequired,
+    positiveFeedbacks:PropTypes.number.isRequired,
+}
