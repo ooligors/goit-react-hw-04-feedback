@@ -21,16 +21,16 @@ export const Statistics = ({ good, neutral, bad, total, positiveFeedbacks }) => 
                 <span className={css.span}>Good: {good}</span>
             </li>
             <li>
-                <span>Neutral: {neutral}</span>
+                <span className={css.span}>Neutral: {neutral}</span>
             </li>
             <li>
-                <span>Bad: {bad}</span>
+                <span className={css.span}>Bad: {bad}</span>
             </li>
             <li>
-                <span>Total: {total}</span>
+                <span className={css.span}>Total: {total}</span>
             </li>
             <li>
-                <span>
+                <span className={css.span}>
                     Positive.feedbacks: {positiveFeedbacks}
                 </span>
             </li>
