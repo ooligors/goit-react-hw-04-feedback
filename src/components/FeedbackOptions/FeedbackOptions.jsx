@@ -16,26 +16,6 @@ export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
       })}
     </ul>
   );
-
-  // (
-  //     <ul>
-  //       <li>
-  //         <button type="button" onClick={onIncreaseFeedback}>
-  //           <span>Good</span>
-  //         </button>
-  //       </li>
-  //       <li>
-  //         <button type="button" onClick={onIncreaseFeedback}>
-  //           <span>Neutral</span>
-  //         </button>
-  //       </li>
-  //       <li>
-  //         <button type="button" onClick={onIncreaseFeedback}>
-  //           <span>Bad</span>
-  //         </button>
-  //       </li>
-  //     </ul>
-  // )
 };
 
 FeedbackOptions.propTypes = {
